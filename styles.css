@@ -1,0 +1,33 @@
+:root{
+    --branco: #FFFFFF;
+    --ciano: hsl(171, 66%, 44%);
+    --azul-claro: hsl(233, 100%, 69%);
+    --azul-acinzentado: hsl(201, 11%, 66%);
+    --azul-acinzentado-escuro: hsl(210, 10%, 33%);
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: var(--branco);
+    color: var(--azul-acinzentado-escuro);
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
