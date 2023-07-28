@@ -72,3 +72,28 @@ p{
     box-shadow: 0 10px 20px var(--cinza-claro);
     border-bottom: 3px solid var(--azul-escuro);
 }
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem{
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+
+.container__imagem-img{
+    position: absolute;
+    left: -2rem;
+}
+
+.container__descrição{
+    width: 30%;
+    margin: 5rem;
+}
+
+.container__texto{
+    margin: 1rem 0 3rem 0;
+}
