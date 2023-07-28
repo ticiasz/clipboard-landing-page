@@ -1,7 +1,11 @@
 :root{
     --branco: #FFFFFF;
     --ciano: hsl(171, 66%, 44%);
+    --ciano-claro: hsl(171, 88%, 75%);
+    --ciano-escuro: hsl(171, 66%, 29%);
+    --cinza-claro: hsl(220, 3%, 79%);
     --azul-claro: hsl(233, 100%, 69%);
+    --azul-escuro: hsl(233, 47%, 44%);
     --azul-acinzentado: hsl(201, 11%, 66%);
     --azul-acinzentado-escuro: hsl(210, 10%, 33%);
 }
@@ -45,4 +49,26 @@ p{
 .descrição{
     text-align: center;
     margin: 0 25rem 4rem 25rem;
+}
+
+.botões{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.botões__link{
+    color: var(--branco);
+    text-decoration: none;
+    border-radius: 40px;
+    border-bottom: 3px solid var(--ciano-escuro);
+    background-color: var(--ciano);
+    box-shadow: 0 10px 20px var(--ciano-claro);
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+}
+
+.botão__azul{
+    background-color: var(--azul-claro);
+    box-shadow: 0 10px 20px var(--cinza-claro);
+    border-bottom: 3px solid var(--azul-escuro);
 }
