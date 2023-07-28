@@ -31,3 +31,10 @@ p{
     font-size: 18px;
     font-weight: 400;
 }
+
+.banner{
+    text-align: center;
+    background-image: url(/images/bg-header-desktop.png);
+    background-size: cover;
+    padding: 8rem 0 5rem 0;
+}
