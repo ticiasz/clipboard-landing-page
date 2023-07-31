@@ -7,6 +7,7 @@
     --azul-claro: hsl(233, 100%, 69%);
     --azul-escuro: hsl(233, 47%, 44%);
     --azul-acinzentado: hsl(201, 11%, 66%);
+    --azul-acinzentado-claro: hsl(200, 23%, 92%);
     --azul-acinzentado-escuro: hsl(210, 10%, 33%);
 }
 
@@ -110,7 +111,7 @@ p{
     text-align: center;
     justify-content: space-around;
     padding: 0 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
 }
 
 .ferramentas__container{
@@ -128,6 +129,48 @@ p{
     margin-bottom: 10rem;
 }
 
-.logos__imagem{
+.logos img{
     width: 10%;
+}
+
+.rodapé{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--azul-acinzentado-claro);
+    padding: 2rem 8rem;
+}
+
+.rodapé__logo{
+    width: 5%;
+}
+
+.rodapé__logo img{
+    width: 100%;
+}
+
+.rodapé__links{
+    width: 70%;
+    display: flex;
+}
+
+.links__lista{
+    margin: 0 3rem;
+}
+
+.links__item{
+    margin: 1rem 0;
+}
+
+.links__item a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--azul-acinzentado-escuro);
+}
+
+.rodapé__redes_sociais{
+    display: flex;
+    justify-content: space-between;
+    width: 10%
 }
