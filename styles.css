@@ -48,7 +48,7 @@ p{
 
 .descrição{
     text-align: center;
-    margin: 0 25rem 4rem 25rem;
+    margin: 0 25rem 5rem 25rem;
 }
 
 .botões{
@@ -76,6 +76,7 @@ p{
 .container{
     display: flex;
     align-items: center;
+    margin-bottom: 8rem;
 }
 
 .container__imagem{
@@ -96,4 +97,10 @@ p{
 
 .container__texto{
     margin: 1rem 0 3rem 0;
+}
+
+.imagem_solitária{
+    display: block;
+    text-align: center;
+    margin-bottom: 6rem;
 }
