@@ -104,3 +104,19 @@ p{
     text-align: center;
     margin-bottom: 6rem;
 }
+
+.ferramentas{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 5rem;
+    margin-bottom: 8rem;
+}
+
+.ferramentas__container{
+    width: 30%;
+}
+
+.ferramentas__título{
+    margin: 2rem 0;
+}
